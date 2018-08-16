@@ -1,0 +1,48 @@
+.first-screen {
+  height: 100vh;
+  background-image: url("../images/first-screen.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.first-screen-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-width: 50%;
+  margin-top: 30px;
+}
+
+.first-button {
+  background-color: #31A389;
+  /* Green */
+  border: none;
+  color: white;
+  padding: 6px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin: 10px 40px;
+  font-size: 18px;
+  max-width: 200px;
+}
+
+.first-button:hover {
+  background-color: white;
+  color: #31A389;
+}
+
+.first-screen h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 45px;
+}

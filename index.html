@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bulma.css">
+  <title>GA</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container flex-for-header">
+      <div class="logo-position">
+        <a href="index.html">
+          <img src="images/logo.png" alt="">
+        </a>
+      </div>
+      <nav>
+        <div class="media-left">
+          <figure class="image is-48x48">
+            <img src="images/man.png" alt="Placeholder image">
+          </figure>
+        </div>
+        <div class="media-content">
+          <p class="title is-4">
+            <a href="user.html">Джон</a>
+          </p>
+          <p class="subtitle is-6">@johnsmith</p>
+        </div>
+        <form class="logout" action="index.html">
+          <button class="sign-in" style="width:auto;" type="submit">Log Out</button>
+        </form>
+      </nav>
+        </div>
+  </header>
+
+
+  <!--Main-->
+  <!--first-screen-->
+  <main>
+    <section class="first-screen">
+      <div class="first-screen black-filter">
+        <section class="first-screen-text">
+          <h2>Exchanging books without borders</h2>
+        </section>
+        <section class="first-screen-buttons">
+          <button class="first-button sign-in" onclick="document.getElementById('id04').style.display='block'" style="width:auto;">Join us</button>
+          <div id="id04" class="modal">
+            <span onclick="document.getElementById('id04').style.display='none'" class="close" title="Close Modal">×</span>
+            <form class="modal-content animate" action="user.html">
+              <div class="reg-container">
+
+                <label>
+                  <b>Name</b>
+                </label>
+                <input type="text" placeholder="Enter your name" name="name" required>
+                <label>
+                  <b>Surname</b>
+                </label>
+                <input type="text" placeholder="Enter your surname" name="surname" required>
+                <label>
+                  <b>Email</b>
+                </label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label>
+                  <b>Password</b>
+                </label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                
+                <input type="checkbox" checked="checked"> Remember me
+                <!-- <p>By creating an account you agree to our policy. -->
+                  <a href="#">Terms & Privacy</a>.</p>
+
+                <div class="clearfix">
+                  <button type="button" onclick="document.getElementById('id04').style.display='none'" class="cancelbtn">Cancel</button>
+                  <button type="submit" class="signupbtn">Sign in</button>
+                  
+                </div>
+              </div>
+            </form>
+          </div>
+          <button class="first-button sign-in" onclick="document.getElementById('id04').style.display='block'" style="width:auto;">Search</button>
+          <!-- <button class="first-button">Search books</button> -->
+        </section>
+      </div>
+    </section>
+    <section id="gallery-main" class="gallery">
+      <div class="container">
+        <h2>Choose book</h2>
+        <section class="gallery_row">
+          <figure class="">
+            <img src="images/h.jpg" onclick="document.getElementById('id05').style.display='block'">
+            <figcaption>
+              <strong> J.K. Rowling "Order of the Phoenix"</strong>
+            </figcaption>
+          </figure>
+          <figure class="">
+            <img src="images/tiny.jpg" onclick="document.getElementById('id05').style.display='block'">
+            <figcaption>
+              <strong>Tiny Budha`s "365 TINY LOVE"</strong>
+            </figcaption>
+
+          </figure>
+          <figure class="">
+            <img src="images/broken.jpg" onclick="document.getElementById('id05').style.display='block'">
+            <figcaption>
+              <strong>Kami Garsia "Broken hearts"</strong>
+            </figcaption>
+
+          </figure>
+        </figure>
+        <figure class="">
+          <img src="images/hobbit.jpg" onclick="document.getElementById('id05').style.display='block'">
+          <figcaption>New -
+            <strong>Tolkien "The Hobbit"</strong>
+          </figcaption>
+
+        </figure>
+        </section>
+        <section class="gallery_row">
+          <figure class="">
+            <img src="images/pratchet.png" onclick="document.getElementById('id05').style.display='block'">
+            <figcaption>New -
+              <strong>Ray Bradbery "Wine"</strong>
+            </figcaption>
+          </figure>
+          <figure class="">
+            <img src="images/pratchet.png" onclick="document.getElementById('id05').style.display='block'">
+            <figcaption>Used -
+              <strong>Ray Bradbery "Wine"</strong>
+            </figcaption>
+
+          </figure>
+          <figure class="">
+            <img src="images/pratchet.png" onclick="document.getElementById('id05').style.display='block'">
+            <figcaption>New -
+              <strong>Ray Bradbery "Wine"</strong>
+            </figcaption>
+
+          </figure>
+        </section>
+        <section class="gallery_row">
+          <figure class="">
+            <img src="images/pratchet.png" onclick="document.getElementById('id05').style.display='block'">
+            <figcaption>New -
+              <strong>Ray Bradbery "Wine"</strong>
+            </figcaption>
+
+          </figure>
+          <figure class="">
+            <img src="images/pratchet.png" onclick="document.getElementById('id05').style.display='block'">
+            <figcaption>Used -
+              <strong>Ray Bradbery "Wine"</strong>
+            </figcaption>
+
+          </figure>
+          <figure class="">
+            <img src="images/pratchet.png" onclick="document.getElementById('id05').style.display='block'">
+            <figcaption>New -
+              <strong>Ray Bradbery "Wine"</strong>
+            </figcaption>
+
+          </figure>
+        </section>
+      </div>
+    </section>
+    <hr>
+    <section class="how-it-works">
+      <div class="container-our">
+        <h2>HOW IT WORKS</h2>
+        <div class="items-container">
+          <div class="how-it-works-item">
+            <div class="how-it-works-image">
+              <img src="images/howItWorks-img1.png" alt="">
+            </div>
+            <div class="line">
+              <img src="images/line.png" alt="">
+            </div>
+            <h3>Find an interesting bookin others users</h3>
+            <p>It should not, however, be forgotten that the constant quantitative growth and the field of our activity plays
+              an important role in shaping the directions of progressive development.</p>
+          </div>
+          <div class="how-it-works-item">
+            <div class="how-it-works-image">
+              <img src="images/howItWorks-img2.png" alt="">
+            </div>
+            <div class="line">
+              <img src="images/line.png" alt="">
+            </div>
+
+            <h3>Contact the book owner and settle for it about the terms of exchange</h3>
+            <p>Thus, the constant information and propaganda support of our activities plays an important role in shaping the
+              essential</p>
+          </div>
+          <div class="how-it-works-item">
+            <div class="how-it-works-image">
+              <img src="images/howItWorks-img3.png" alt="">
+            </div>
+            <div class="line">
+              <img src="images/line.png" alt="">
+            </div>
+            <h3>Enjoy reading and then return book owner</h3>
+            <p>Everyday practice shows that the constant advocacy of our activities largely determines the creation of a model
+              of development.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="advantages">
+      <div class="container-our">
+        <h2 class=".advantages-h2">Advantages</h2>
+        <div class="items-container">
+          <div class="advantages-item">
+            <div class="advantages-image">
+              <img src="images/advantages-img1.png" alt="">
+            </div>
+            <div class="line">
+              <img src="images/line.png" alt="">
+            </div>
+            <h3>Profiles &#38; References</h3>
+            <p>Read what members say about themselves in their profiles. See what other bookcores have said about their experiences
+              with them. </p>
+
+          </div>
+          <div class="advantages-item">
+            <div class="advantages-image">
+              <img src="images/advantages-img2.png" alt="">
+            </div>
+            <div class="line">
+              <img src="images/line.png" alt="">
+            </div>
+
+            <h3>Messaging</h3>
+            <p>Get to know potential borrower through our messaging system. Feel free to ask any qestions.</p>
+          </div>
+          <div class="advantages-item">
+            <div class="advantages-image">
+              <img src="images/advantages-img3.png" alt="">
+            </div>
+            <div class="line">
+              <img src="images/line.png" alt="">
+            </div>
+            <h3>Customer Support</h3>
+            <p>Our customer support is available to all customers. Having an issues? Contact us let`s get it fixed.</p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <section class="adventure">
+
+      <h3 class="flex-block">Ready for your next adventure?</h3>
+      <button class="first-button sign-in" onclick="document.getElementById('id04').style.display='block'" style="width:auto;">Join</button>
+
+    </section>
+  </footer>
+  <div id="id05" class="modal">
+    <span onclick="document.getElementById('id05').style.display='none'" class="close" title="Close Modal">×</span>
+    <form class="modal-content animate" action="thankPage.html">
+      <div class="reg-container">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image">
+              <img id="card-image" src="images/3.jpg" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-left">
+                <figure class="image is-48x48">
+                  <img src="images/man.png" alt="Placeholder image">
+                </figure>
+              </div>
+              <div class="media-content">
+                <p class="title is-4">
+                  <a href="user.html">Джон</a>
+                </p>
+                <p class="subtitle is-6">@johnsmith</p>
+              </div>
+            </div>
+            <div class="content">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
+              
+              <br>
+              <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+            </div>
+          </div>
+        </div>
+        <div class="clearfix">
+          <button type="button" onclick="document.getElementById('id05').style.display='none'" class="cancelbtn">Cancel</button>
+          <button type="submit" class="signupbtn">Book</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+</body>
+<script>
+  // Get the modal
+  var modal = document.getElementById('id01');
+  var modal = document.getElementById('id02');
+  var modal = document.getElementById('id03');
+  var modal = document.getElementById('id04');
+  var modal = document.getElementById('id05');
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function (event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+</script>
+
+</html>

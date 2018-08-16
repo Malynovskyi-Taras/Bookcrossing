@@ -1,0 +1,66 @@
+@import "howItWorks.css";
+@import "experience.css";
+@import "owner.css";
+@import "header.css";
+@import "first-screen.css";
+@import 'advantages.css';
+@import "adventure.css";
+@import "register.css";
+@import "gallery.css";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-our {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex: 0 0 auto;
+}
+
+h2,
+h1 {
+  text-align: center;
+  color: #0278be;
+}
+
+#card-image {
+  max-width: 35%;
+  max-height: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.thankyou {
+  color: #0278be;
+  font-weight: bold;
+  font-size: 50px;
+  height: 80vh;
+}
+
+.logout {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+.logout img {
+  width: 50%;
+}

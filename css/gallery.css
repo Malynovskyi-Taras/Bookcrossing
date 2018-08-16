@@ -1,0 +1,31 @@
+.gallery_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.gallery_row a {
+  text-decoration: none;
+  color: #000;
+}
+
+.gallery_row a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.gallery img {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+body h2 {
+  font-weight: bold;
+  color: #0278be;
+  font-size: 30px;
+}
